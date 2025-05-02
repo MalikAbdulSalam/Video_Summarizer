@@ -27,21 +27,27 @@ An AI-powered application built with Streamlit that analyzes and summarizes vide
 
 ### 🔧 1. Install Python 3.10+
 
-Download and install Python 3.10+ from [python.org](https://www.python.org/downloads/).
+git clone https://github.com/yourusername/video-ai-summarizer.git
+cd video-ai-summarizer
+conda create -n videoSummerizer
+conda activate videoSummerizer
+pip install -r requirements.txt
 
-Ensure Python and pip are available:
-```bash
-python --version
-pip --version
+##############################################
+🔐 5. Set Up Your Google API Key
+Go to Google AI Studio
+
+Sign in with your Google account
+
+Generate an API key
+
+In the root directory of the project, create a .env file:
+
+env
+Copy
+Edit
+GOOGLE_API_KEY=your_google_api_key_here
+##################################################
+streamlit run app.py
 
 
-## 💻 Installation Guide
-
-### 🔧 1. Install Python 3.10+
-
-Download and install Python 3.10+ from [python.org](https://www.python.org/downloads/).
-
-Ensure Python and pip are available:
-```bash
-python --version
-pip --version
