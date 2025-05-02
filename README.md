@@ -33,3 +33,15 @@ Ensure Python and pip are available:
 ```bash
 python --version
 pip --version
+
+
+## 💻 Installation Guide
+
+### 🔧 1. Install Python 3.10+
+
+Download and install Python 3.10+ from [python.org](https://www.python.org/downloads/).
+
+Ensure Python and pip are available:
+```bash
+python --version
+pip --version
