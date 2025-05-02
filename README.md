@@ -26,7 +26,7 @@ An AI-powered application built with Streamlit that analyzes and summarizes vide
 ## 💻 Installation Guide
 
 ### 🔧 1. Install Python 3.10+
-
+```bash
 git clone https://github.com/yourusername/video-ai-summarizer.git
 cd video-ai-summarizer
 conda create -n videoSummerizer
