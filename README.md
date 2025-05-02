@@ -34,6 +34,8 @@ conda activate videoSummerizer
 pip install -r requirements.txt
 
 ##############################################
+
+
 🔐 5. Set Up Your Google API Key
 Go to Google AI Studio
 
@@ -48,6 +50,8 @@ Copy
 Edit
 GOOGLE_API_KEY=your_google_api_key_here
 ##################################################
+
+
 streamlit run app.py
 
 
